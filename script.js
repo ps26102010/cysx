@@ -14,7 +14,7 @@ document.getElementById('submitPasswordButton').addEventListener('click', functi
 
 document.getElementById('downloadButton').addEventListener('click', function() {
     var link = document.createElement('a');
-    link.href = 'New Folder/cysx.docx';  // Update with your document's path
+    link.href = '/New Folder/cysx.docx';  // Update with your document's path
     link.download = 'cysx.docx';  // Update with your document's name
     document.body.appendChild(link);
     link.click();
